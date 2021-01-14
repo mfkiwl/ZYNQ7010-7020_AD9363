@@ -1,6 +1,10 @@
 # ZYNQ7010/7020_AD9363/AD9364/AD9361
 ####  基于ZYNQ+AD9363的开源SDR硬件
 
+项目介绍视频：https://www.bilibili.com/video/BV1Di4y1c7ZW
+
+目前正在测试，bug情况未知，打板请谨慎。有问题可发邮件：1399109998@qq.com
+
 ##### 1.硬件方案
 
 FPGA:ZYNQ7010/7020(ZYNQ7010和ZYNQ7020可以相互代换，如需更多硬件资源请使用ZYNQ7020)
@@ -31,23 +35,36 @@ QSPI FLASH: W25Q256 32MB
 
 阻抗：不支持
 
-目前正在测试，bug情况未知，打板请谨慎。有问题可发邮件：1399109998@qq.com
+阻抗版本将于2021年中旬测试，目前收发测试正常正在进行openwifi的移植。
 
-最新本版（更改ddr走线，lvds走线、增加收发模组为2r2t）目前正在测试这个版本
+![2](images/grade.png)
 
-已经对这个版本进行了pluto固件的适配
+![](images/IMG_8132.JPG)
 
-![2](images/2.png)
-
-![cpz](images/wq.JPG)
+![](images/IMG_8133.JPG)
 
 2020/12/17更新，ps系统测试正常，网路可以在1000M稳定运行。
 
 ![eth](images/500m.JPG)
 
-<img src="images/csh.png" alt="eth" style="zoom:50%;" />
-
 ad9363初始化正常
 
+<img src="images/csh.png" alt="eth" style="zoom:50%;" />
 
+pluto-uboot移植成功
 
+![eth](images/pluto-system.png)
+
+pluto固件工作正常
+
+![](images/IMG_8016.PNG)
+
+![IMG_8017](images/iio.png)
+
+ad9363破解成ad9364
+
+![pj](images/pj.png)
+
+![IMG_8018](images/IMG_8129.JPG)
+
+![IMG_8018](images/IMG_8131.JPG)
